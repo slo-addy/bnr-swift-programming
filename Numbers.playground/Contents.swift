@@ -29,3 +29,20 @@ print(30 - (5 - 5))
 print(11 / 3) // Prints 3
 print(-11 % 3) // Prints -2
 print(11 % 3) // Prints 2
+
+let d1 = 1.1 // Implicitly Double
+let d2: Double = 1.1
+let f1: Float = 100.3
+
+print(10.0 + 11.4)
+print(11.0 / 3.0)
+print(12.4 % 5.0)
+
+if d1 == d2 {
+    print("d1 and d2 are the same!")
+}
+
+print("d1 + 01 is \(d1 + 0.1)")
+if d1 + 0.1 == 1.2 {
+    print("d1 is equal to 1.2")
+}
